@@ -6,7 +6,7 @@ A modern, responsive temple website built with React, Vite, and Tailwind CSS. Th
 
 ## 🌐 Live Demo
 
-**[🚀 Live Website](https://temple-website-blush.vercel.app)** *[Replace with your Vercel URL after deployment]*
+**[🚀 Live Website](https://temple-website-blush.vercel.app)**
 
 **[📁 GitHub Repository](https://github.com/bamaniyamilan/temple-website)**
 
