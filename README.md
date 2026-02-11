@@ -6,9 +6,9 @@ A modern, responsive temple website built with React, Vite, and Tailwind CSS. Th
 
 ## 🌐 Live Demo
 
-**[🚀 Live Website](https://your-vercel-url.vercel.app)** *[Replace with your Vercel URL after deployment]*
+**[🚀 Live Website](https://temple-website-blush.vercel.app)** *[Replace with your Vercel URL after deployment]*
 
-**[📁 GitHub Repository](https://github.com/YOUR_USERNAME/temple-website)**
+**[📁 GitHub Repository](https://github.com/bamaniyamilan/temple-website)**
 
 ## ✨ Features
 
@@ -52,5 +52,5 @@ A modern, responsive temple website built with React, Vite, and Tailwind CSS. Th
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/temple-website.git
+   git clone https://github.com/bamaniyamilan/temple-website.git
    cd temple-website
