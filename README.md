@@ -1,16 +1,56 @@
-# React + Vite
+# 🛕 Shri Mandir Temple Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive temple website built with React, Vite, and Tailwind CSS. This website showcases temple information, online services, donation system, and spiritual resources.
 
-Currently, two official plugins are available:
+![Temple Website Preview](https://via.placeholder.com/800x400/FF9933/FFFFFF?text=Temple+Website+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+**[🚀 Live Website](https://your-vercel-url.vercel.app)** *[Replace with your Vercel URL after deployment]*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[📁 GitHub Repository](https://github.com/YOUR_USERNAME/temple-website)**
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎯 **Core Features**
+- **Responsive Design** - Perfectly works on mobile, tablet, and desktop
+- **Modern UI/UX** - Smooth animations and transitions
+- **Image Gallery** - Auto-rotating temple image slider
+- **Online Donation** - Secure donation system with QR code
+- **Aarti Timings** - Complete daily schedule with special events
+- **Service Booking** - Online ordering of prasad, puja kits, and more
+- **Live Streaming** - Integration for live aarti viewing
+
+### 🔧 **Technical Features**
+- **React 18** - Latest React features with hooks
+- **Vite** - Lightning fast build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **Work Sans Font** - Modern, readable typography
+- **Lucide React Icons** - Beautiful icon set
+- **Responsive Images** - Optimized for all devices
+- **SEO Friendly** - Proper meta tags and semantic HTML
+
+## 📸 **Website Sections**
+
+| Section | Description | Key Features |
+|---------|-------------|--------------|
+| **Hero** | Welcome section with CTA | Animated background, booking buttons |
+| **Gallery** | Temple image slider | Auto-rotate, navigation controls |
+| **Donation** | Online donation system | QR code, bank details, secure form |
+| **Aarti Timings** | Daily schedule | Special aartis, sponsorship options |
+| **Services** | Online ordering | Prasad, Ganga Jal, Puja kits, books |
+| **Contact** | Contact information | Interactive form, temple location |
+
+## 🚀 **Getting Started**
+
+### **Prerequisites**
+- Node.js 16+ installed
+- npm or yarn package manager
+- Git for version control
+
+### **Installation**
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/temple-website.git
+   cd temple-website
