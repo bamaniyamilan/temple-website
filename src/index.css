@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-amber-50;
+    background-image: url('/background.png');
+    background-size: 300px;
+    background-blend-mode: multiply;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative text-gray-700 hover:text-temple-red font-medium transition-colors duration-300;
+  }
+  
+  .nav-link::after {
+    @apply content-[''] absolute left-0 -bottom-1 w-0 h-0.5 bg-temple-red transition-all duration-300;
+  }
+  
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+  
+  .temple-card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-2xl hover:scale-[1.02];
+  }
+  
+  .gold-gradient {
+    @apply bg-gradient-to-r from-temple-gold via-amber-200 to-temple-gold;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-800 mb-8 text-center relative;
+  }
+  
+  .section-title::after {
+    @apply content-[''] absolute left-1/2 transform -translate-x-1/2 bottom-[-12px] w-20 h-1 bg-temple-gold rounded-full;
+  }
+}
